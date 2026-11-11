@@ -1,0 +1,17 @@
+# Install PyTorch first. With an NVIDIA GPU (we trained on an RTX 5080, CUDA 13):
+#   pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cu130
+# Without a GPU (set TRAIN = False in the notebook to use our published weights):
+#   pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cpu
+# then: pip install -r requirements.txt
+torch==2.14.1
+torchvision==0.29.1
+ultralytics==8.4.190
+huggingface_hub==2.2.0
+pandas==3.0.6
+numpy==2.5.3
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.1
+opencv-python==4.14.0.94
+PyYAML==6.0.3
+requests==2.34.2

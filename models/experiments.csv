@@ -1,0 +1,4 @@
+run,model,image size,parameters (M),epochs trained,training (min),inference (ms/img),val precision,val recall,val mAP50,val mAP50-95
+yolo26s_640,yolo26s.pt,640,10.0,60,24.5,2.8,0.586,0.467,0.494,0.331
+yolo26n_640,yolo26n.pt,640,2.5,60,11.7,2.0,0.633,0.526,0.535,0.347
+yolo26s_320,yolo26s.pt,320,10.0,60,7.3,1.9,0.61,0.484,0.506,0.342

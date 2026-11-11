@@ -1,0 +1,32 @@
+# virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# data: downloaded by the notebook, not committed
+data/*
+!data/.gitkeep
+
+# model weights and published data: on Hugging Face, not on GitHub
+*.pt
+*.onnx
+models/*.joblib
+dataset/images/
+dataset/labels/
+test_download/
+
+# training outputs (Ultralytics) and videos
+runs/
+datasets/
+*.mp4
+*.webm
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# secrets
+.env
+kaggle.json
